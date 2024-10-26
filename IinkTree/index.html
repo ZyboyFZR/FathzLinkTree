@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkTree</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <!-- sound -->
+   <audio autoplay loop id="sound">
+    <source src="sound/sound 1.mp3">
+   </audio>
+    <!-- background -->
+     <div class="background"></div>
+     <div class="container">
+         <!-- login -->
+       <div id="login">
+         <h1 class="h1-login">LOGIN</h1>
+           <input type="text" placeholder="Masukan Nama Kamu" id="username"/>
+           <button onclick="btnLogin()" id="btnLogin">Login</button>
+       </div>
+
+       <!-- content -->
+        <div id="content">
+          <div class="link">
+            <a href="https://www.instagram.com/fathz124_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram">
+              <img src="logo/instagram.png" class="logo">
+              <p>Instagram</p>
+            </a>
+            <a href="https://www.tiktok.com/@fathz124_?is_from_webapp=1&sender_device=pc" class="tiktok">
+              <img src="logo/tiktok.png" class="logo">
+              <p>TikTok</p>
+            </a>
+            <a href="https://wa.me/+62895324884209" class="whatsapp">
+              <img src="logo/whatsapp.png" class="logo">
+              <p>WhatsApp</p>
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <script src="script.js"/>
+</body>
+</html>
